@@ -49,7 +49,7 @@ public class Application {
 
                 products.add(new Product(name, price, quantity));
 
-                bufferedWriter.write(products.get(i).getName() + ", " + String.format("%.2f", products.get(i).getPrice()) + ", " + products.get(i).getQuantity());
+                bufferedWriter.write(name + ", " + String.format("%.2f", price) + ", " + quantity);
             }
         }
         catch (RuntimeException exception) {
