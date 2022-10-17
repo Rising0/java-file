@@ -11,7 +11,7 @@
 **Enter the number of products you want to register.**
 <img src="img/usage2.png" />
 
-**After registering the products, a folder called "out" will be created inside the directory you specified with: Name, Product price x Quantity**
+**After registering the products, a folder called "out" will be created inside the directory you specified, and inside it will be a file called "summary.csv". Inside the file you will have: Name, Product Price x Quantity**
 <img src="img/usage3.png" />
 <img src="img/usage4.png" />
 
